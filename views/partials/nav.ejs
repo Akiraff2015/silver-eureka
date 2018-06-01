@@ -1,0 +1,26 @@
+<nav id="navbar-default-override" class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+      	<img alt="field_logo.png" src="./images/field_logo.png">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li <% if (page_name === 'index') {%> class='active' <%} %> ><a href="/">Home </a></li>
+        <li <% if (page_name === 'about') {%> class='active' <%} %> ><a href="/work">About</a></li>
+        <li <% if (page_name === 'team') {%> class='active' <%} %> ><a href="/team">Team</a></li>
+        <li <% if (page_name === 'enquiries') {%> class='active' <%} %> ><a href="/enquiries">Enquiries</a></li>
+        <li <% if (page_name === 'work') {%> class='active' <%} %> ><a href="/workforus">Work(s) for us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

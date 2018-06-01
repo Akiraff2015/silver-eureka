@@ -1,8 +1,89 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+#navbar-default-override {
+	background-color: #293835;
+	padding: 10px;
+	border-top: 1px solid #293835;
+	border-left: 1px solid #293835;
+	border-right: 1px solid #293835;
+	border-bottom: 4px solid rgba(43, 194, 131, 1);
+	border-radius: 0;
 }
 
-a {
-  color: #00B7FF;
+#navbar-default-override .navbar-nav > .active > a, 
+#navbar-default-override .navbar-nav > .active > a:focus, 
+#navbar-default-override .navbar-nav > .active > a:hover {
+	color: #2AB96D;
+	background-color: transparent;
+}
+
+ul.nav.navbar-nav > li > a{
+	color: white;
+}
+
+ul.nav.navbar-nav > li > a:hover{
+	color: #2AB96D;
+	transition: color 0.4s ease 0s;
+}
+
+ul.nav.navbar-nav > li > a:active{
+	color: white;
+}
+
+#navbar-default-override .navbar-brand {
+	padding: 10px 15px;
+}
+
+.btn-default {
+	background-color: rgba(43, 194, 131, 1);
+	border: none;
+}
+
+.btn-default:hover {
+	background-color: rgb(42, 183, 122)
+}
+
+.line-separator {
+	height: 1px;
+	width: 100%;
+	border: 1px solid rgba(43, 194, 131, 1);
+	margin-bottom:15px;
+}
+
+.block-quote {
+	border-right: 4px solid rgba(43, 194, 131, 1);
+	width: 100%;
+	padding-right: 5px;
+}
+
+.margin-bottom-20px {
+	margin-bottom: 20px;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+.text-italic {
+	font-style: italic;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.text-red {
+	color: red;
+}
+
+.text-light-grey {
+	color: #999;
+}
+
+.img {
+    position: relative;
+    float: left;
+    width:  200px;
+    height: 120px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
